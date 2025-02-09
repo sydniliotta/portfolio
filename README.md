@@ -1,7 +1,7 @@
 # Data Analytics
 
 #### Key Skills
-- Data Analysis and Visualization: SQL, Power BI, Excel, Tableau, Power Platform
+**Data Analysis and Visualization:** SQL, Power BI, Excel, Tableau, Power Platform
 - Process Improvement: Root-Cause Analysis, Workflow Optimization, Automation
 - Healthcare Analytics: EHR Systems, HIPAA Compliance, Patient Outcome Analysis, SharePoint
 - Project Management: Cross-Functional Collaboration, Large-Scale Project Implementation
