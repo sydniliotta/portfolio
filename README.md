@@ -1,13 +1,14 @@
 # Data Analytics
 
 ## Education	        		
-B.S., Dietetics, Minor in Business Administration | University of Florida (_May 2020_)
+Bachelor of Sciences in Dietetics, Minor in Business Administration
+  University of Florida (_May 2020_)
 
 ### Key Skills
-**Data Analysis and Visualization:** SQL, Power BI, Excel, Tableau, Power Platform
-**Process Improvement:** Root-Cause Analysis, Workflow Optimization, Automation
-**Healthcare Analytics:** EHR Systems, HIPAA Compliance, Patient Outcome Analysis, SharePoint
-**Project Management:** Cross-Functional Collaboration, Large-Scale Project Implementation
+- **Data Analysis and Visualization:** SQL, Power BI, Excel, Tableau, Power Platform
+- **Process Improvement:** Root-Cause Analysis, Workflow Optimization, Automation
+- **Healthcare Analytics:** EHR Systems, HIPAA Compliance, Patient Outcome Analysis, SharePoint
+- **Project Management:** Cross-Functional Collaboration, Large-Scale Project Implementation
 
 ### Certifications and Training
 - Registered Dietitian Nutritionist (_August 2021_)
