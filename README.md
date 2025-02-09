@@ -11,12 +11,12 @@ Bachelor of Sciences in Dietetics, Minor in Business Administration
 - **Project Management:** Cross-Functional Collaboration, Large-Scale Project Implementation
 
 ### Certifications and Training
-- Registered Dietitian Nutritionist (_August 2021_)
 - Lean Six Sigma Yellow Belt Certification (_October 2024_)
 - SQL Training, VHA Learning (_January 2024_)
 - Power Automate Training, LinkedIn Learning (_October 2023_)
 - Introduction to Healthcare Data Analytics Certification, VHA Learning (_August 2023_)
 - Power BI Foundations Course, VHA Learning (_March 2023_)
+- Registered Dietitian Nutritionist (_August 2021_)
 
 ## Work Experience
 **Health Informatics Program Analyst  @ Veteran’s Health Administration (_August 2023- Pres_)**
