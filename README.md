@@ -60,6 +60,155 @@ Process:
 **Insights:** This visualization highlights the few leading causes of death that account for the majority of mortality, helping public health officials prioritize interventions. The dynamic parameter allows for adjusting the percentage threshold, demonstrating how different cutoffs impact the analysis.
 By applying the Pareto principle, we can target resources where they will have the greatest impact on reducing mortality. If we aim to reduce deaths most effectively, this is where we should start.
 
+
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 40px;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 5px;
+        }
+
+        .process {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #f1f1f1;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Projects</h1>
+    
+    <h2>Analyzing Cause of Death Data - Worldwide</h2>
+    <h3>Question: What are the primary causes of death that contribute the most to overall mortality, and how can this insight guide public health priorities?</h3>
+    
+    <div class="image-container">
+        <img src="/images/cause%20of%20death%20data%20cleaning.png" alt="Cleaning Data">
+    </div>
+    
+    <p><a href="https://public.tableau.com/views/TopCausesofDeath-Pareto/TopCausesofDeath-Pareto?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="button">View Tableau Dashboard</a></p>
+
+    <h3 class="process">Process</h3>
+    
+    <h4>1. Data Preparation:</h4>
+    <ul>
+        <li>Imported the dataset and filtered it to only include 2015–2019 data for the U.S.</li>
+        <li>Pivoted the death columns for easier analysis.</li>
+        <li>Cleaned and standardized the Causes of Death field using:
+            <code>REPLACE(REPLACE([Reason for Death],'Deaths -',''),'- Sex: Both - Age: All Ages (Number)','')</code>
+        </li>
+    </ul>
+
+    <div class="image-container">
+        <img src="/images/cause%20of%20death%20data%20cleaning.png" alt="Cleaning Data">
+    </div>
+
+    <h4>2. Building the Pareto Chart:</h4>
+    <ul>
+        <li>Duplicated the Deaths measure to create a dual-axis visualization.</li>
+        <li>Converted the second axis into a running total to calculate the cumulative percentage of deaths.</li>
+        <li>Changed the cumulative axis to a line graph and formatted it as a percentage of total deaths.</li>
+        <li>Applied a secondary calculation (percent of total) to visualize cumulative impact.</li>
+    </ul>
+
+    <h4>3. Applying the 80/20 Rule:</h4>
+    <ul>
+        <li>Created a parameter (80%) to dynamically adjust the threshold.</li>
+        <li>Developed a calculated field to filter only the causes contributing to ≤ 80% of total deaths.</li>
+        <li>Filtered the view to only display the top 80% of causes, making the visualization more focused and impactful.</li>
+    </ul>
+
+    <h3>Insights:</h3>
+    <p>This visualization highlights the few leading causes of death that account for the majority of mortality, helping public health officials prioritize interventions.</p>
+    <p>The dynamic parameter allows for adjusting the percentage threshold, demonstrating how different cutoffs impact the analysis.</p>
+    <p>By applying the Pareto principle, we can target resources where they will have the greatest impact on reducing mortality. If we aim to reduce deaths most effectively, this is where we should start.</p>
+
+    <p><a href="/portfolio/" class="button">Back to Home</a></p>
+</div>
+
+</body>
+</html>
+
+
 ### SQL Encounter Data 
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
