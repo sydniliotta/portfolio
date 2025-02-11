@@ -32,15 +32,16 @@ Bachelor of Sciences in Dietetics, Minor in Business Administration
 - Developed dynamic Excel dashboards to provide detailed macro- and micronutrient analyses for inpatient diets, used by leadership to audit and enhance processes.
 
 ## Projects
-### Data-Driven Encounter Data 
-# Question: What are the primary causes of death that contribute the most to overall mortality, and how can this insight guide public health priorities?"
-[Publication](https://public.tableau.com/views/TopCausesofDeath-Pareto/TopCausesofDeath-Pareto?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+### Analyzing Cause of Death Data - Worldwide
+#### Question: What are the primary causes of death that contribute the most to overall mortality, and how can this insight guide public health priorities?"
+![Bike Study](/assets/img/bike_study.jpeg)
+[Tableua Dashboard](https://public.tableau.com/views/TopCausesofDeath-Pareto/TopCausesofDeath-Pareto?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Process:
 1. Data Preparation:
 - Imported the dataset and filtered it to only include 2015–2019 data for the U.S.
 - Pivoted the death columns for easier analysis.
-- Cleaned and standardized the Causes of Death field using: DAX formula REPLACE(REPLACE([Reason for Death],'Deaths -',''),'- Sex: Both - Age: All Ages (Number)','')
+- Cleaned and standardized the Causes of Death field using: REPLACE(REPLACE([Reason for Death],'Deaths -',''),'- Sex: Both - Age: All Ages (Number)','')
 
 2. Building the Pareto Chart:
 - Duplicated the Deaths measure to create a dual-axis visualization.
@@ -53,15 +54,10 @@ Process:
 - Developed a calculated field to filter only the causes contributing to ≤ 80% of total deaths
 - Filtered the view to only display the top 80% of causes, making the visualization more focused and impactful.
 
-  Insights: This visualization highlights the few leading causes of death that account for the majority of mortality, helping public health officials prioritize interventions. The dynamic parameter allows for adjusting the percentage threshold, demonstrating how different cutoffs impact the analysis.
+**Insights:** This visualization highlights the few leading causes of death that account for the majority of mortality, helping public health officials prioritize interventions. The dynamic parameter allows for adjusting the percentage threshold, demonstrating how different cutoffs impact the analysis.
 By applying the Pareto principle, we can target resources where they will have the greatest impact on reducing mortality. If we aim to reduce deaths most effectively, this is where we should start.
 
-
-Sourced data from Synthea modeling after real world data. Uploaded data into SQL, analyzed using Postgres SQL. 
-Developed dashboard for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
-
-
-### Data-Driven EEG Band Discovery with Decision Trees
+### SQL Encounter Data 
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
