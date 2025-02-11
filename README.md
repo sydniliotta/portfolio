@@ -31,6 +31,34 @@ Bachelor of Sciences in Dietetics, Minor in Business Administration
 - Conducted statistical analysis using SPSS to compare the efficacy of virtual vs. in-person nutrition appointments, presenting findings to improve patient care strategies.
 - Developed dynamic Excel dashboards to provide detailed macro- and micronutrient analyses for inpatient diets, used by leadership to audit and enhance processes.
 
+<style>
+    .button {
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background-color: #007bff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+        box-shadow: 0px 4px 6px rgba(0, 123, 255, 0.2);
+        margin: 20px 0;
+    }
+
+    .button:hover {
+        background-color: #0056b3;
+        transform: translateY(-3px);
+        box-shadow: 0px 6px 10px rgba(0, 123, 255, 0.3);
+    }
+
+    .button:active {
+        background-color: #003366;
+        transform: translateY(0);
+        box-shadow: 0px 4px 6px rgba(0, 123, 255, 0.2);
+    }
+</style>
+
 <a href="https://sydniliotta.github.io/portfolio/projects/" class="button">View My Projects</a>
 
 ## Projects
