@@ -41,21 +41,21 @@ Bachelor of Sciences in Dietetics, Minor in Business Administration
 
 Process:
 1. Data Preparation:
-- Imported the dataset and filtered it to only include 2015–2019 data for the U.S.
-- Pivoted the death columns for easier analysis.
-- Cleaned and standardized the Causes of Death field using: REPLACE(REPLACE([Reason for Death],'Deaths -',''),'- Sex: Both - Age: All Ages (Number)','')
-- ![Cleaning Data](/images/cause%20of%20death%20data%20cleaning.png)
+  - Imported the dataset and filtered it to only include 2015–2019 data for the U.S.
+  - Pivoted the death columns for easier analysis.
+  - Cleaned and standardized the Causes of Death field using: REPLACE(REPLACE([Reason for Death],'Deaths -',''),'- Sex: Both - Age: All Ages (Number)','')
+  - ![Cleaning Data](/images/cause%20of%20death%20data%20cleaning.png)
 
 2. Building the Pareto Chart:
-- Duplicated the Deaths measure to create a dual-axis visualization.
-- Converted the second axis into a running total to calculate the cumulative percentage of deaths.
-- Changed the cumulative axis to a line graph and formatted it as a percentage of total deaths.
-- Applied a secondary calculation (percent of total) to visualize cumulative impact.
+  - Duplicated the Deaths measure to create a dual-axis visualization.
+  - Converted the second axis into a running total to calculate the cumulative percentage of deaths.
+  - Changed the cumulative axis to a line graph and formatted it as a percentage of total deaths.
+  - Applied a secondary calculation (percent of total) to visualize cumulative impact.
 
   3.Applying the 80/20 Rule:
-- Created a parameter (80%) to dynamically adjust the threshold.
-- Developed a calculated field to filter only the causes contributing to ≤ 80% of total deaths
-- Filtered the view to only display the top 80% of causes, making the visualization more focused and impactful.
+  - Created a parameter (80%) to dynamically adjust the threshold.
+  - Developed a calculated field to filter only the causes contributing to ≤ 80% of total deaths
+  - Filtered the view to only display the top 80% of causes, making the visualization more focused and impactful.
 
 **Insights:** This visualization highlights the few leading causes of death that account for the majority of mortality, helping public health officials prioritize interventions. The dynamic parameter allows for adjusting the percentage threshold, demonstrating how different cutoffs impact the analysis.
 By applying the Pareto principle, we can target resources where they will have the greatest impact on reducing mortality. If we aim to reduce deaths most effectively, this is where we should start.
