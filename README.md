@@ -107,26 +107,12 @@ permalink: /projects/
             border-radius: 5px;
         }
 
-        .process {
-            background: #007bff;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-            font-weight: bold;
-            margin-top: 20px;
-        }
-
         ul {
-            list-style-type: none;
-            padding: 0;
+            padding-left: 20px;
         }
 
-        li {
-            background: #f1f1f1;
-            margin: 10px 0;
-            padding: 15px;
-            border-radius: 5px;
-            font-weight: bold;
+        ul li {
+            margin: 8px 0;
         }
 
         a {
@@ -167,7 +153,7 @@ permalink: /projects/
     
     <p><a href="https://public.tableau.com/views/TopCausesofDeath-Pareto/TopCausesofDeath-Pareto?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="button">View Tableau Dashboard</a></p>
 
-    <h3 class="process">Process</h3>
+    <h3>Process</h3>
     
     <h4>1. Data Preparation:</h4>
     <ul>
@@ -198,9 +184,11 @@ permalink: /projects/
     </ul>
 
     <h3>Insights:</h3>
-    <p>This visualization highlights the few leading causes of death that account for the majority of mortality, helping public health officials prioritize interventions.</p>
-    <p>The dynamic parameter allows for adjusting the percentage threshold, demonstrating how different cutoffs impact the analysis.</p>
-    <p>By applying the Pareto principle, we can target resources where they will have the greatest impact on reducing mortality. If we aim to reduce deaths most effectively, this is where we should start.</p>
+    <ul>
+        <li>This visualization highlights the few leading causes of death that account for the majority of mortality, helping public health officials prioritize interventions.</li>
+        <li>The dynamic parameter allows for adjusting the percentage threshold, demonstrating how different cutoffs impact the analysis.</li>
+        <li>By applying the Pareto principle, we can target resources where they will have the greatest impact on reducing mortality. If we aim to reduce deaths most effectively, this is where we should start.</li>
+    </ul>
 
     <p><a href="/portfolio/" class="button">Back to Home</a></p>
 </div>
