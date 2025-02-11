@@ -31,10 +31,12 @@ Bachelor of Sciences in Dietetics, Minor in Business Administration
 - Conducted statistical analysis using SPSS to compare the efficacy of virtual vs. in-person nutrition appointments, presenting findings to improve patient care strategies.
 - Developed dynamic Excel dashboards to provide detailed macro- and micronutrient analyses for inpatient diets, used by leadership to audit and enhance processes.
 
+<a href="{{ site.github.repository_url }}" class="button">View My Projects</a>
+
 ## Projects
 ### Analyzing Cause of Death Data - Worldwide
 #### Question: What are the primary causes of death that contribute the most to overall mortality, and how can this insight guide public health priorities?"
-![Bike Study](/assets/img/bike_study.jpeg)
+![Cleaning Data](/images/cause%20of%20death%20data%20cleaning.png)
 [Tableua Dashboard](https://public.tableau.com/views/TopCausesofDeath-Pareto/TopCausesofDeath-Pareto?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Process:
@@ -42,6 +44,7 @@ Process:
 - Imported the dataset and filtered it to only include 2015–2019 data for the U.S.
 - Pivoted the death columns for easier analysis.
 - Cleaned and standardized the Causes of Death field using: REPLACE(REPLACE([Reason for Death],'Deaths -',''),'- Sex: Both - Age: All Ages (Number)','')
+- ![Cleaning Data](/images/cause%20of%20death%20data%20cleaning.png)
 
 2. Building the Pareto Chart:
 - Duplicated the Deaths measure to create a dual-axis visualization.
