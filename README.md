@@ -1,9 +1,3 @@
-title: Sydni Liotta
-logo: images/Sydni%20liotta%20w%20jacket%20Thumbnail.png
-description: Registered dietitian and data analyst with 5+ years of experience in analyzing complex data to drive insights and improve patient outcomes. 
-             Skilled in SQL, Power BI, and Tableau, with expertise in healthcare data visualization, trend analysis, and process optimization. 
-theme: jekyll-theme-minimal
-
 # Data Analytics
 
 ## Education	        		
