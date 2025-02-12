@@ -18,18 +18,6 @@ Bachelor of Sciences in Dietetics, Minor in Business Administration
 - Power BI Foundations Course, VHA Learning (_March 2023_)
 - Registered Dietitian Nutritionist (_August 2021_)
 
-## Work Experience
-**Health Informatics Program Analyst  @ Veteran’s Health Administration (_August 2023- Pres_)**
-- Designed and maintained SQL queries to improve electronic health record (EHR) functionality,  standardize processes, and enhance clinical decision-making.
-- Streamlined operations by leveraging Power Automate to standardize processes and automate data workflows, resulting in improved efficiency and reduced manual effort.
-
-**Informatics Dietitian  @ Veteran’s Health Administration (_July 2022 – August 2023_)**
-- Analyzed KPI data for 100 VHA  nutrition departments, identifying trends using Power BI and Excel.
-- Integrated two datasets with differing outputs into a centralized pipeline using PowerQuery, then delivered monthly Power BI presentations to leadership, providing valuable insights to support decision-making.
-
-**Clinical Dietitian and Internship   @ Veteran’s Health Administration (_May 2021 – June 2022_)**
-- Conducted statistical analysis using SPSS to compare the efficacy of virtual vs. in-person nutrition appointments, presenting findings to improve patient care strategies.
-- Developed dynamic Excel dashboards to provide detailed macro- and micronutrient analyses for inpatient diets, used by leadership to audit and enhance processes.
 
 <style>
     .button {
@@ -59,7 +47,11 @@ Bachelor of Sciences in Dietetics, Minor in Business Administration
     }
 </style>
 
+<a href="https://sydniliotta.github.io/portfolio/resume/" class="button">View My Projects</a>
+
 <a href="https://sydniliotta.github.io/portfolio/projects/" class="button">View My Projects</a>
+
+
 
 ## Projects
 ### Analyzing Cause of Death Data - Worldwide
