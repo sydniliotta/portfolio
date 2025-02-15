@@ -47,9 +47,9 @@ Bachelor of Sciences in Dietetics, Minor in Business Administration
     }
 </style>
 
-<a href="https://sydniliotta.github.io/portfolio/resume/" class="button">View My Projects</a>
+<a href="https://sydniliotta.github.io/portfolio/resume/" class="button">View My Resume</a>
 
-<a href="https://sydniliotta.github.io/portfolio/projects/" class="button">View My Projects</a>
+<a href="https://sydniliotta.github.io/projects/" class="button">View My Projects</a>
 
 
 
