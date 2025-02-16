@@ -21,7 +21,7 @@ Bachelor of Sciences in Dietetics, Minor in Business Administration
 - Registered Dietitian Nutritionist (_August 2021_)
 
 ## Work Experience
-**Health Informatics Program Analyst  @ Veteran’s Health Administration (_August 2023- Pres_)**
+**Health Informatics Analyst  @ Veteran’s Health Administration (_August 2023- Pres_)**
 - Designed and maintained SQL queries to improve electronic health record (EHR) functionality,  standardize processes, and enhance clinical decision-making.
 - Streamlined operations by leveraging Power Automate to standardize processes and automate data workflows, resulting in improved efficiency and reduced manual effort.
 
