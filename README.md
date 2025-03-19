@@ -1,4 +1,3 @@
-# Data Analytics
 
 <a href="https://sydniliotta.github.io/projects/" class="button">View My Projects</a>
 
